@@ -39,7 +39,10 @@ export default function Hero() {
             <h2 className="hero-subtitle">
               Computer Science & Engineering Student
             </h2>
-
+            
+            <p className="hero-desc">
+              I am Madu Pavan Kumar, a highly motivated Computer Science and Engineering student with a strong academic foundation in programming and software development.
+            </p>
             
             <div className="hero-btns">
               <button 

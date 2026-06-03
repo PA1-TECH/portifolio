@@ -16,7 +16,7 @@ export default function Header() {
       }
 
       // Determine active section based on scroll position
-      const sections = ['home', 'about', 'skills', 'projects', 'education', 'certificates', 'contact'];
+      const sections = ['home', 'skills', 'projects', 'education', 'certificates', 'contact'];
       const scrollPosition = window.scrollY + 120;
 
       for (const section of sections) {
@@ -56,7 +56,6 @@ export default function Header() {
 
   const navLinks = [
     { label: 'Home', id: 'home' },
-    { label: 'About', id: 'about' },
     { label: 'Skills', id: 'skills' },
     { label: 'Projects', id: 'projects' },
     { label: 'Education', id: 'education' },
