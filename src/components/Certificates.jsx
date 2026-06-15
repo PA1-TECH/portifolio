@@ -1,4 +1,3 @@
-import React from 'react';
 import { Award, ExternalLink } from 'lucide-react';
 
 export default function Certificates() {
@@ -23,6 +22,34 @@ export default function Certificates() {
       link: 'https://drive.google.com/file/d/1-dhTO2-bdnvFZMjUtLzogPVbGwqXVujb/view?usp=sharing',
       date: 'Infosys Certified',
       description: 'Comprehensive study of Large Language Models (LLMs), prompt engineering, transformer architectures, diffusion models, and deploying Generative AI applications.'
+    },
+    {
+      title: 'E-Cell Campus Ambassador',
+      issuer: 'E-Cell',
+      link: 'https://drive.google.com/file/d/1Wg0E6CmYN9tRZQdLSn5CNxL_8IhV23uu/view?usp=sharing',
+      date: 'E-Cell Certified',
+      description: 'Promoted entrepreneurial mindset, organized campus-wide startup events, and facilitated workshops on business planning and leadership development.'
+    },
+    {
+      title: 'Salesforce Certificate',
+      issuer: 'Salesforce',
+      link: 'https://drive.google.com/file/d/1NMQhJJWSS5kvB9vQOIe0oj5qSDqVjXfQ/view?usp=sharing',
+      date: 'Salesforce Certified',
+      description: 'Hands-on experience with Salesforce CRM, configuring objects, workflows, security settings, and designing custom dashboards and reports.'
+    },
+    {
+      title: 'Gen AI Powered Data Analytics Job Simulation',
+      issuer: 'Forage',
+      link: 'https://drive.google.com/file/d/1rGGc2x-cE1Th8xQ6tGFwR1INhQUqcpDo/view?usp=sharing',
+      date: 'Forage Certified',
+      description: 'Simulated real-world consultant tasks applying generative AI techniques to analyze data patterns, automate reports, and generate business insights.'
+    },
+    {
+      title: 'Quantum Fundamentals',
+      issuer: 'Infosys',
+      link: 'https://drive.google.com/file/d/10p2ZnzHAxJleeRqMBCFMZeCJ05TrOWdC/view?usp=sharing',
+      date: 'Infosys Certified',
+      description: 'Explored principles of quantum computing, including qubits, superposition, entanglement, and basic quantum algorithms and programming.'
     }
   ];
 
