@@ -1,6 +1,6 @@
-import React from 'react';
-import { ArrowRight, Sparkles, Terminal, Code } from 'lucide-react';
+import { ArrowRight, Sparkles } from 'lucide-react';
 import pavanPic from '../assets/pic.jpg';
+import { GooeyText } from './ui/gooey-text-morphing';
 
 export default function Hero() {
   const handleScrollTo = (sectionId) => {
@@ -33,7 +33,12 @@ export default function Hero() {
             
             <h1 className="hero-title">
               Hi, I'm <br />
-              <span className="gradient-text">MADU PAVAN KUMAR</span>
+              <GooeyText 
+                texts={["MADU", "PAVAN", "KUMAR"]} 
+                morphTime={1} 
+                cooldownTime={0.25} 
+                textClassName="gradient-text"
+              />
             </h1>
             
             <h2 className="hero-subtitle">

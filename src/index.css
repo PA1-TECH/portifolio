@@ -1711,3 +1711,40 @@ textarea.form-input {
     grid-template-columns: 1fr;
   }
 }
+
+/* Gooey Text Morphing Styles */
+.gooey-text-container {
+  position: relative;
+  display: inline-block;
+  vertical-align: bottom;
+  width: 100%;
+  height: 4.8rem;
+}
+
+.gooey-text-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.gooey-text-span {
+  position: absolute;
+  left: 0;
+  display: inline-block;
+  user-select: none;
+  font-size: 4rem;
+  font-weight: 800;
+  line-height: 1.1;
+  letter-spacing: -0.03em;
+  white-space: nowrap;
+}
+
+@media (max-width: 768px) {
+  .gooey-text-container {
+    height: 3.5rem;
+  }
+  .gooey-text-span {
+    font-size: 3rem;
+  }
+}
+
